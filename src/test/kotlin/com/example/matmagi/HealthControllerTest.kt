@@ -17,7 +17,7 @@ class HealthControllerTest {
     fun `should get health` (){
         mockMvc.get("/health").andExpect {
             status { isOk() }
-            content { string("health") }
+            content { string("health1") }
         }
     }
 }

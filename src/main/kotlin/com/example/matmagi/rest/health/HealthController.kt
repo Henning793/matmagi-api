@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.RestController
 @RequestMapping("/health")
 class HealthController {
     @GetMapping
-    fun getHealth (): String = "health"
+    fun getHealth (): String = "health1"
 }
